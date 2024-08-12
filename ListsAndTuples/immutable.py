@@ -16,7 +16,7 @@
 # print(id(result))
 
 
-result = "Correct"
+result = "Correct"   # strings are immutable in python
 another_result = result
 print(id(result))
 print(id(another_result))
